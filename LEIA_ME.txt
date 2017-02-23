@@ -1,0 +1,4 @@
+Eu tentei fazer, com o que foi pedido mas ..
+Uso o notepad ++, não sei muito sobre o sass e o less mas já ouvi falar muito.
+Eu usei ou pelo menos tentei usar e fazer o que foi pedido.
+Eu apenas terminei para médias telas e mobile(md, xs).

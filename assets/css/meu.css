@@ -1,0 +1,337 @@
+*{
+	margin: 0px;
+	padding: 0px
+}
+
+body{
+	background-color: #f8f8f8;
+}
+
+icon{
+	cursor: pointer
+}
+
+@font-face {
+	font-family: "Poppins-Bold";
+	src: url("../font/Poppins-Bold.ttf");
+}
+@font-face {
+	font-family: "Poppins-regular";
+	src: url("../font/Poppins-Regular.ttf");
+}
+
+h1{
+	font-family: Poppins-Bold;
+	font-size: 5.2em;
+	color:white
+}
+h4{
+	font-family: Poppins-Regular;
+	color: white
+}
+
+h2,h6{
+	font-family: Poppins-Regular;
+}
+
+p{
+	font-family: Poppins-Regular;
+	font-size: 13px;
+}
+.bg-header{
+	background: url(../img/img3.jpg) no-repeat;
+	height: 701px
+}
+.p-top-57{
+	padding-top: 57px;
+}
+
+nav ul {
+	
+}
+
+nav ul li {
+	list-style:none;
+	float: left;
+	margin: 0 0 0 20px;
+	
+}
+
+.first-menu ul li a{
+	font-family: Poppins-regular;
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li a{
+	font-family: Poppins-regular;
+	text-decoration: none;
+	color: white;
+}
+
+.btn{
+	background-color: #648fdd;
+    border-radius: 3px;
+    line-height: 30px;
+    color: white;
+	margin-top: 46px;
+	font-family: Poppins-Bold;
+	padding: 4px 6px;
+	cursor: pointer;
+}
+
+.moreinf{
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0 1rem;
+	background-color: rgba(0, 0, 0, 0.62);
+	margin-top: -93px;
+}
+
+.second-menu{
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0 1rem;
+    background-color: #648fdd;	
+}
+
+.tam-second{
+	height: 77px;
+}
+
+.tam{
+	height: 93px;
+}
+
+.pic{
+	border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    height: 226px;;
+}
+.banner{
+	margin-top: 90px;
+	float: left;
+	padding: 0 1rem !important;
+}
+.m-top-60{
+	margin: 60px 0;
+}
+.text{
+	background-color: white;
+    border-radius: 0 0 8px 8px;
+}
+
+.blue{
+	color: #648fdd;
+}
+.azul-escuro{
+	color: #556072;
+}
+.azul-claro{
+	color: #9ea4b5;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.title{
+	font-family: Poppins-Bold;
+	
+}
+
+.text-right{
+	text-align: right
+}
+.text-left{
+	text-align: left
+}
+
+
+.rodape{
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0 16rem;
+}
+footer{
+	width:100%;
+	float:left
+}
+
+.barra{
+	width: 100%;
+	height: 1px;
+	background-color: #f0f0f0;
+}
+
+.space22{
+	margin-left: 25%
+}
+
+.border1{
+	border-left-style: solid;
+	border-right-style: solid;
+    border-width: 1px;
+    border-left-color: white;
+    border-right-color: white;
+}
+.border2{
+	border-right-style: solid;
+    border-width: 1px;
+    border-right-color: white;
+}
+
+.device{
+	display: none;
+}
+.pc{
+	display: block;
+}
+
+.hide{
+	display: none;
+}
+
+.fixo{
+	position: fixed;
+    background-color: #648fdd;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0 10rem;
+	width: 100%;
+	height: 67px;
+    line-height: 63px;
+
+}
+.fixo img{
+	margin-top: 9px
+}
+
+.left{
+	float: left
+}
+.right{
+	float: right
+}
+
+.margin-banner-neg{
+	margin-top: -105px;
+}
+
+.margin-banner-pos{
+	margin-top: 100px;
+	position:relative;
+	top: 93px
+}
+
+.icones{
+	font-size: 3.2em;
+	color: #648fdd;
+}
+@media only screen and (max-width: 425px) {
+	.hide{
+		display: none;
+	}
+	.bg-header{
+		background: url(../img/mobile1.jpg) no-repeat;
+		height: 483px
+	}
+	.device{
+		display: block;
+	}
+	.pc{
+		display: none;
+	}
+	.menu-cel{
+		font-size: 3.2em;
+		color: white
+	}
+	.container-fluid {
+		margin-right: auto;
+		margin-left: auto;
+		padding: 0 1rem;
+	}
+	.first-menu{
+		display: none;
+	}
+	.btn{
+		text-align: center
+	}
+	.rodape{
+		margin-right: auto;
+		margin-left: auto;
+		padding: 0 1rem;
+	}
+	
+	.arow ul li {
+		list-style:none;
+		float: left;
+		margin: 0 0 0 31px;
+		color: #999999;
+	}
+
+	.arow ul li a{
+		font-family: Poppins-regular;
+		text-decoration: none;
+		
+	}
+	
+	.banner{
+		margin-top: 30px;
+		
+	}
+	.circle1{
+		height:20px;
+		width: 20px;
+		border-radius: 50%;
+		background-color:#999999;
+		
+	}
+	
+	.arow{
+		margin: 22px 0 ;
+	}
+	.new{
+		clear: both
+	}
+	
+	h1{
+		font-family: Poppins-Bold;
+		font-size: 3.2em;
+		color:white
+	}
+	
+	.menu-total{
+		background-color: #648fdd;
+		color: white;
+		width: 100%;
+		height: 676px;
+		overflow: hidden;
+		position: fixed;
+	}
+	
+	.m-30{
+		margin-right: auto;
+		margin-left: auto;
+		padding: 0 2rem;
+		margin-top: 40px
+	}
+	
+	.tam-fonte{
+		font-size: 3.3em;
+	}
+	
+	.menu-device li {
+		color: white;
+		font-size: 1.2em;
+		margin: 30px 0 ;
+		
+	}
+	
+	.menu-device li a{
+		font-family: Poppins-bold;
+		text-decoration: none;
+		color: white;
+	}
+	
+}
